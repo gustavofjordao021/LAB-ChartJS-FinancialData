@@ -1,7 +1,6 @@
 const express = require('express');
-const axios = require('axios');
-const chartjs = require('chart.js');
 const path = require('path');
+const axios = require('axios');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
@@ -9,7 +8,6 @@ const bodyParser = require('body-parser');
 
 const index = require('./routes/index');
 const users = require('./routes/users');
-const finacialData = require('./public/javascripts/financial-data');
 
 const app = express();
 
