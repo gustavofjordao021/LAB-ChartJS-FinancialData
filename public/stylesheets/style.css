@@ -1,9 +1,18 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #00B7FF;
+  margin-top: -50px;
 }
 
 a {
   color: #00B7FF;
+}
+
+canvas {
+  width: 1300px!important;
+  height: 600px!important;
+}
+
+#currency {
+  border-color: black;
 }

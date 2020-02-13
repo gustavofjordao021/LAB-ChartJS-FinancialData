@@ -7,8 +7,12 @@
   </head>
   <body>
     <h1> {{title}} </h1>
-    <p>Welcome to project {{title}}</p>
-    <canvas id="myChart" width="600" height="600"></canvas>
+    <p>From: <input type="date" id="dateInput1"> To: <input type="date" id="dateInput2"> on currency 
+    <select name="currencyOptions" id="currency">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select></p>
+    <canvas id="myChart"></canvas>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="javascripts/financial-data.js"></script>
   </body>
